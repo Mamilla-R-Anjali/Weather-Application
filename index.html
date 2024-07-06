@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-item">
+            <button class="weather-button" onclick="fetchWeatherDetails()">Get Weather for Paris</button>
+            <div id="weatherInfoParis" class="weather-info"></div>
+        </div>
+        <div class="weather-item">
+            <button class="weather-button" onclick="getCustomWeatherDetails()">Get Custom Weather</button>
+            <div id="weatherInfoCustom" class="weather-info"></div>
+        </div>
+        <div class="weather-item">
+            <button class="weather-button" onclick="getLocation()">Get My Location Weather</button>
+            <div id="weatherInfoLocation" class="weather-info"></div>
+        </div>
+        <div class="weather-item">
+            <button class="weather-button" onclick="fetchWeatherDetailsforgoa()">Get Weather for Goa</button>
+            <div id="weatherInfoGoa" class="weather-info"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
